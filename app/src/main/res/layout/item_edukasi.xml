@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- View untuk gambar atau ikon -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_edt_grafik"
+        android:backgroundTint="@color/primary_dark_098db3" />
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Judul -->
+            <TextView
+                android:id="@+id/tvJudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Imunisasi Posyandu Dalam Tumbuh Anak"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/primary_dark_098db3" />
+
+            <!-- Teks deskripsi -->
+
+            <!-- Tombol untuk informasi lebih lanjut -->
+        </LinearLayout>
+</LinearLayout>

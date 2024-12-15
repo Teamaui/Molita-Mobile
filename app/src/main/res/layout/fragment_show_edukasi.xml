@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_corner_card"
+                    app:cardCornerRadius="16dp">
+
+                    <ImageView
+                        android:id="@+id/imgEdukasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.cardview.widget.CardView>
+
+                <ImageButton
+                    android:id="@+id/back"
+                    android:layout_margin="10dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:elevation="4dp"
+                    android:layout_gravity="top|start"
+                    android:background="@drawable/bg_corner_btn"
+                    android:src="@drawable/baseline_arrow_back"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/judulTeks"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Test"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_dark_098db3"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC"/>
+
+            <TextView
+                android:id="@+id/txtTanggalWaktu"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#A5B0B2"
+                android:text="Tes"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/deskripsiTeks"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tes"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

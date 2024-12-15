@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_corner_imunisasi"
+    android:backgroundTint="@color/primary_dark_098db3"
+    android:paddingHorizontal="18dp"
+    android:paddingBottom="15dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:srcCompat="@drawable/baseline_colorize" />
+        <TextView
+            android:id="@+id/txtJenisImunisasi"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minggu, 6 Oktober 2024"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:srcCompat="@drawable/ic_calendar" />
+        <TextView
+            android:id="@+id/txtTanggal"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minggu, 6 Oktober 2024"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:srcCompat="@drawable/outline_location_on" />
+        <TextView
+            android:id="@+id/txtTempat"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posyandu Mangli"
+            android:layout_weight="1"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Belum"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:background="@drawable/shp_corner"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/primary_dark_098db3"
+            android:textSize="17dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chokolita</string>
+    <string name="register_text">Sudah punya akun? <u>Login</u></string>
+    <string name="login_text">Belum punya akun? <u>Register</u></string>
+</resources>

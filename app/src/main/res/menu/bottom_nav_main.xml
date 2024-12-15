@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_solid"
+        />
+    <item
+        android:id="@+id/nav_jadwal"
+        android:title="Jadwal"
+        android:icon="@drawable/ic_date_solid"
+        />
+    <item
+        android:id="@+id/nav_edukasi"
+        android:title="Edukasi"
+        android:icon="@drawable/ic_edu_solid"
+        />
+    <item
+        android:id="@+id/nav_grafik"
+        android:title="Grafik"
+        android:icon="@drawable/ic_graph_solid"
+        />
+    <item
+        android:id="@+id/nav_profil"
+        android:title="Profil"
+        android:icon="@drawable/ic_person_solid"
+        />
+</menu>
