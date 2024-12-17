@@ -1,6 +1,6 @@
 ## Atribusi
 
-Proyek ini menggunakan beberapa library open-source dengan lisensi yang mengizinkan penggunaan dalam proyek privat atau komersial. Terima kasih kepada para pengembang library berikut:
+Proyek ini memanfaatkan sejumlah library open-source yang berperan penting dalam mendukung pengembangannya. Kami menyampaikan terima kasih kepada para pengembang library berikut:
 
 - [**MPAndroidChart**](https://github.com/PhilJay/MPAndroidChart)  
   Lisensi: Apache License 2.0
